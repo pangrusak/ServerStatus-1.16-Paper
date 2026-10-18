@@ -1,0 +1,14 @@
+name: ServerStatus
+version: 1.0.0
+main: me.pangrusak.serverstatus.ServerStatusPlugin
+api-version: 1.16
+author: pangrusak
+commands:
+  checkstatus:
+    description: Shows JupiterSMP server and Raspberry Pi health.
+    usage: /checkstatus
+    aliases: [status, serverstatus]
+permissions:
+  serverstatus.use:
+    description: Allows use of /checkstatus.
+    default: true
